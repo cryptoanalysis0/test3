@@ -1,86 +1,61 @@
-
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
+  <title>Crypto21 - Social Links</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>CryptoAnalysis – Global Market Insights</title>
-  <link rel="stylesheet" href="style.css">
-  <script defer src="script.js"></script>
-  <!-- TradingView Widget -->
-  <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+  <style>
+    body {
+      background-color: #0e0e0e;
+      color: #fff;
+      font-family: Arial, sans-serif;
+      text-align: center;
+      padding: 40px 20px;
+    }
+    img {
+      width: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+    }
+    h1 {
+      font-size: 28px;
+      margin: 10px 0;
+    }
+    p {
+      color: #bbb;
+      margin-bottom: 30px;
+    }
+    .links a {
+      display: block;
+      margin: 12px auto;
+      padding: 14px 20px;
+      width: 260px;
+      background: #1a1a1a;
+      color: #fff;
+      text-decoration: none;
+      border-radius: 10px;
+      transition: all 0.3s ease;
+      font-size: 16px;
+    }
+    .links a:hover {
+      background-color: #00bcd4;
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <nav class="navbar">
-      <div class="logo">CryptoAnalysis</div>
-      <ul class="nav-links">
-        <li><a href="#home">Home</a></li>
-        <li><a href="#markets">Markets</a></li>
-        <li><a href="#news">News</a></li>
-        <li><a href="#referral">Referral</a></li>
-        <li><a href="#about">About</a></li>
-      </ul>
-    </nav>
-    <section id="home" class="hero">
-      <h1>Real‑Time Crypto & Global Markets Data</h1>
-      <p>Live prices, technical charts, and curated news in one place.</p>
-      <a href="#markets" class="cta">Explore Markets</a>
-    </section>
-  </header>
 
-  <main>
-    <!-- Markets Section -->
-    <section id="markets" class="section">
-      <h2>Top Cryptocurrencies</h2>
-      <table id="market-table">
-        <thead>
-          <tr>
-            <th>#</th>
-            <th>Coin</th>
-            <th>Price (USD)</th>
-            <th>24h Change</th>
-            <th>Market Cap</th>
-          </tr>
-        </thead>
-        <tbody>
-          <!-- Data populated by script.js -->
-        </tbody>
-      </table>
+  <img src="https://cryptologos.cc/logos/bitcoin-btc-logo.png" alt="Crypto21 Logo" />
+  <h1>Crypto21</h1>
+  <p>تابعني لمتابعة تحليل العملات الرقمية وأخبار السوق</p>
 
-      <div id="chart-container">
-        <!-- TradingView chart will be injected here -->
-      </div>
-    </section>
+  <div class="links">
+    <a href="https://twitter.com/crypto21" target="_blank">Twitter</a>
+    <a href="https://t.me/crypto21" target="_blank">Telegram</a>
+    <a href="https://discord.gg/crypto21" target="_blank">Discord</a>
+    <a href="https://instagram.com/crypto21" target="_blank">Instagram</a>
+    <a href="https://github.com/crypto21" target="_blank">GitHub</a>
+    <a href="https://youtube.com/@crypto21" target="_blank">YouTube</a>
+  </div>
 
-    <!-- News Section -->
-    <section id="news" class="section">
-      <h2>Latest Crypto News</h2>
-      <ul id="news-list">
-        <!-- News items populated by script.js -->
-      </ul>
-    </section>
-
-    <!-- Referral Section -->
-    <section id="referral" class="section referral">
-      <h2>Share & Earn</h2>
-      <p>Invite friends to CryptoAnalysis and earn rewards on every referral.</p>
-      <div class="referral-box">
-        <input type="text" id="referral-link" readonly value="https://cryptoanalysis.example.com/ref=YOURCODE">
-        <button id="copy-btn">Copy Link</button>
-      </div>
-      <p id="copy-confirmation" class="hidden">Link copied!</p>
-    </section>
-
-    <!-- About Section -->
-    <section id="about" class="section">
-      <h2>About CryptoAnalysis</h2>
-      <p>CryptoAnalysis aggregates live market data from public APIs and delivers timely news so traders can make informed decisions. Built with open‑source tools and deployed on GitHub Pages.</p>
-    </section>
-  </main>
-
-  <footer>
-    <p>© 2025 CryptoAnalysis. All rights reserved.</p>
-  </footer>
 </body>
 </html>
